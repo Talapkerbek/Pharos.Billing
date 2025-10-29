@@ -1,9 +1,6 @@
 using JasperFx.Events;
-using Marten;
 using Marten.Events.Aggregation;
-using Marten.Events.Projections;
-using Pharos.Billing.Domain.Feature;
-using Pharos.Billing.Domain.Feature.Events;
+using Pharos.Billing.Domain.Aggregates.Feature.Events;
 using Pharos.Billing.Infra.Marten.ReadModels;
 
 namespace Pharos.Billing.Infra.Marten.Projections;

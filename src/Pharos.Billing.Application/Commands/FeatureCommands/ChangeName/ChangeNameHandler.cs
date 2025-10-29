@@ -1,5 +1,6 @@
 using Pharos.Billing.Application.Commands.FeatureCommands.CreateFeature;
-using Pharos.Billing.Domain.Feature;
+using Pharos.Billing.Domain.Abstraction.Repositories;
+using Pharos.Billing.Domain.Aggregates.Feature;
 using Pharos.Billing.Infra.Repositories.FeatureRepo;
 
 namespace Pharos.Billing.Application.Commands.FeatureCommands.ChangeName;
