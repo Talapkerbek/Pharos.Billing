@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Marten" Version="8.13.3" />
+    <PackageReference Include="WolverineFx" Version="5.0.0" />
+    <PackageReference Include="WolverineFx.Kafka" Version="5.0.0" />
+    <PackageReference Include="WolverineFx.Marten" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pharos.Billing.Domain\Pharos.Billing.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
